@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 247, 193);
+}
+
+.container{
+    background-color: #fff;
+    width: 800px;
+    height: auto;
+    border-radius: 1px solid black;
+}
+
+.container h1{
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container .note{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.section{
+    margin: 10px;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+form fieldset{
+    width: 750px;
+    padding: 10px;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+form textarea{
+    margin-bottom: 10px;
+}
+
+form .end{
+    height: 30px;
+    background-color: rgb(241, 71, 71);
+    color: #fff;
+}
