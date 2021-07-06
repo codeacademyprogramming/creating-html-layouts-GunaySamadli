@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h1{
+    margin-left: 30px;
+}
+
+form p{
+    padding-top: 13px;
+    border-bottom: 1px solid gray;
+    color:rgb(44, 42, 42);
+    background-color: rgb(223, 219, 219);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+form p b{
+    color: rgb(33, 117, 226);
+}
+
+.container form input,.mail {
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+form .check input{
+    width: 0px;
+}
+
+.uptade {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form  .button{
+    background-color: green;
+    color: #fff;
+}
+
+.container h1{
+    padding-top: 70px;
+}

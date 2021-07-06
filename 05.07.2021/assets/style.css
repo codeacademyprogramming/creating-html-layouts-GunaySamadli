@@ -1,0 +1,19 @@
+table{
+    margin:25px 0;
+    border-collapse: collapse;
+    border-color: #fff;
+}
+
+table  th{
+    background-color: green;
+    color: #fff;
+}
+
+table tr:nth-child(even){
+    background-color: rgb(169, 207, 112);
+}
+
+table tr:nth-child(odd){
+    background-color: rgb(22, 180, 22);
+}
+
